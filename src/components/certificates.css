@@ -1,0 +1,37 @@
+/* WorkCardstyles.css */
+
+.work-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .project-heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .project-container {
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; /* Change this to 'space-between' if you want more space between certificates */
+    display : flex;
+    flex-direction : row;
+  }
+  
+  .project-card {
+    flex: 0 0 calc(33.33% - 20px); /* Adjust the width as needed */
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    margin: 10px; /* Add margin to create space between certificates */
+  }
+  
+  .project-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .project-title {
+    margin-top: 10px;
+  }
+  
